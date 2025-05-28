@@ -3,7 +3,7 @@ function somar(a,b) {
     return a + b
 }
 
-function dividir(a,b) {
+function subtrair(a,b) {
     return a - b
 }
 
@@ -15,14 +15,12 @@ function dividir(a,b) {
     return a / b
 }
 
-
-
 //Chamando a função
 // Adicionar o resultado da função na constante
 const soma = somar(2,3)
 const subtracao = subtrair(2,3)
 const multiplicacao = multiplicar(2,3)
-const divisao = dividir(2.3)
+const divisao = dividir(2,3)
 
 
 // Mostrar o conteúdo da constante.
